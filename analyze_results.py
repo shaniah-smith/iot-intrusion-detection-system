@@ -4,39 +4,33 @@ import matplotlib.pyplot as plt
 # Load CSV
 df = pd.read_csv("results/detection_results.csv")
 
-print("\nFirst 5 rows:")
-print(df.head())
-
-print("\nLabel counts:")
-print(df["label"].value_counts())
-
-# Graph 1: NORMAL vs ALERT count
+# -------- Graph 1 (you already have) --------
 label_counts = df["label"].value_counts()
-plt.figure(figsize=(8, 5))
+
+plt.figure()
 label_counts.plot(kind="bar")
 plt.title("Detection Results Count")
 plt.xlabel("Label")
 plt.ylabel("Count")
-plt.tight_layout()
 plt.savefig("results/label_counts.png")
-plt.show()
+plt.close()
 
-# Graph 2: Packet count per window
-plt.figure(figsize=(10, 5))
-plt.plot(df["packet_count"].values, marker="o")
-plt.title("Packet Count per Detection Window")
-plt.xlabel("Window Index")
+# -------- Graph 2 (Packet count per window) --------
+plt.figure()
+plt.plot(df["packet_count"])
+plt.title("Packet Count per Window")
+plt.xlabel("Window")
 plt.ylabel("Packet Count")
-plt.tight_layout()
 plt.savefig("results/packet_count_per_window.png")
-plt.show()
+plt.close()
 
-# Graph 3: Average packet size per window
-plt.figure(figsize=(10, 5))
-plt.plot(df["avg_packet_size"].values, marker="o")
-plt.title("Average Packet Size per Detection Window")
-plt.xlabel("Window Index")
-plt.ylabel("Average Packet Size")
-plt.tight_layout()
+# -------- Graph 3 (Avg packet size) --------
+plt.figure()
+plt.plot(df["avg_packet_size"])
+plt.title("Average Packet Size per Window")
+plt.xlabel("Window")
+plt.ylabel("Avg Packet Size")
 plt.savefig("results/avg_packet_size_per_window.png")
-plt.show()
+plt.close()
+
+print(" Graphs saved in results/ folder")
