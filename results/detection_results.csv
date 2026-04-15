@@ -1,0 +1,441 @@
+label,packet_count,avg_packet_size,unique_src_ips,unique_dst_ips,unique_dst_ports,tcp_count,udp_count,reasons
+ALERT,316,318.48,91,10,8,42,274,Possible DoS: high packet volume
+ALERT,562,305.22,99,11,12,46,516,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,423,263.4,94,10,12,40,383,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,378,331.59,100,8,10,54,324,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,382,242.57,93,11,13,52,330,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,5289,1167.85,92,12,13,1739,3550,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,274,406.34,81,7,7,35,239,Possible DoS: high packet volume
+ALERT,885,972.9,79,13,10,249,636,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,865,730.8,110,13,15,170,695,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1416,1008.55,103,13,17,369,1047,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,11933,1236.47,111,11,13,3495,8438,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1662,1116.83,83,12,13,374,1288,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,738,1021.68,70,10,13,154,584,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,3321,1145.42,109,11,13,905,2416,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,3421,1147.38,102,12,14,851,2570,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1338,865.6,109,11,9,236,1102,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1991,1098.33,101,9,12,603,1388,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2036,1100.14,103,12,14,597,1439,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,3160,1173.66,91,8,8,769,2391,Possible DoS: high packet volume
+ALERT,3253,1132.68,123,13,15,778,2475,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,3654,1191.59,104,15,15,1258,2396,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1398,1038.31,107,11,11,337,1061,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1779,1069.53,109,14,15,486,1293,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2571,1068.79,112,19,21,757,1814,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2206,1127.23,91,9,13,704,1502,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1814,973.91,104,13,13,487,1327,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1781,1019.3,78,15,20,511,1270,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1258,1176.93,47,9,11,362,896,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2765,1122.43,73,10,10,804,1961,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1126,884.83,72,13,17,292,834,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1058,661.63,93,17,26,306,752,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2123,1062.28,67,15,19,513,1610,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2087,968.68,114,12,16,501,1586,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,556,228.42,93,10,9,31,525,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,705,751.34,83,17,17,157,548,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,807,276.45,99,20,20,115,665,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2147,996.4,92,16,18,487,1658,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1952,814.57,107,16,16,385,1554,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1050,676.98,106,13,14,126,922,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,3032,1150.46,101,13,17,929,2099,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2484,1053.57,123,10,13,586,1898,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1363,830.01,115,17,15,243,1118,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1897,1054.52,110,12,16,408,1489,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2692,1117.2,100,19,18,1337,1355,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,3901,1037.85,115,17,19,1149,2752,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2218,995.3,107,13,13,266,1952,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,416,413.09,107,5,5,10,406,Possible DoS: high packet volume
+ALERT,599,842.93,90,10,12,145,454,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1064,741.75,104,12,14,150,914,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1699,1155.05,91,13,14,601,1098,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2664,1153.39,101,10,13,701,1963,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,575,915.15,107,12,14,127,448,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1798,1031.37,97,15,13,482,1316,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,692,783.15,93,14,31,157,534,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1023,1093.97,74,12,10,361,662,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,455,912.75,64,15,15,165,290,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,613,1048.23,43,14,12,144,469,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,571,884.65,54,13,19,196,375,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1215,587.2,59,20,33,458,757,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,805,998.27,79,15,15,300,505,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,783,1016.38,55,9,12,261,522,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1126,870.99,65,13,16,256,870,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,710,773.17,107,9,12,152,558,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,926,941.98,73,8,12,254,671,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,871,583.79,99,15,18,160,696,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,411,183.74,72,9,11,42,367,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1188,979.93,65,9,13,372,814,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,2280,1057.45,89,13,13,657,1623,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,808,748.41,103,15,16,165,641,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,234,409.82,85,8,9,25,209,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,393,311.96,92,6,8,31,362,Possible DoS: high packet volume
+ALERT,410,279.71,114,8,11,88,322,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,205,244.07,85,9,8,28,177,Possible DoS: high packet volume
+ALERT,145,308.64,65,7,10,49,96,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,70,236.57,18,5,10,42,28,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,132,445.05,45,9,8,26,106,Possible DoS: high packet volume
+ALERT,275,512.74,77,12,11,46,229,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,325,524.79,81,8,8,12,313,Possible DoS: high packet volume
+ALERT,347,489.51,73,10,11,48,299,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,379,492.98,88,13,15,80,299,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,102,378.01,34,10,13,47,55,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,230,445.92,85,10,9,36,194,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,380,569.86,85,4,5,17,363,Possible DoS: high packet volume
+ALERT,272,467.31,80,7,7,32,240,Possible DoS: high packet volume
+ALERT,201,440.38,69,10,11,44,157,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,257,457.72,87,11,9,37,220,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,246,350.74,88,7,11,47,199,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,417,425.48,85,11,14,157,260,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,302,447.83,93,9,12,47,255,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,234,329.77,65,11,11,37,197,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,390,340.75,80,9,9,23,367,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,611,245.37,97,13,15,74,537,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,262,275.83,61,8,10,41,221,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,356,313.26,71,11,13,20,336,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,748,480.52,71,16,27,190,540,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,524,528.89,48,16,25,328,194,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,938,491.2,92,14,30,240,691,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,393,547.13,103,13,14,105,288,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,350,541.84,73,11,11,118,232,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,349,533.2,85,10,12,81,268,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,594,426.42,72,10,12,121,473,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,412,519.72,91,14,20,163,249,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,263,671.62,55,9,12,163,100,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,378,580.56,99,16,15,140,238,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,3306,936.96,104,13,16,130,3176,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,267,672.93,80,9,9,87,180,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,314,406.06,58,6,10,114,200,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,291,529.23,86,12,9,50,241,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,232,605.79,78,6,8,66,166,Possible DoS: high packet volume
+ALERT,165,280.67,64,9,13,59,106,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,332,416.85,97,7,8,31,301,Possible DoS: high packet volume
+ALERT,200,341.67,67,9,11,42,158,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,384,403.91,95,9,24,21,363,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,298,280.86,93,8,11,55,243,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,871,407.25,103,9,11,53,818,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,291,269.61,93,9,9,39,252,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,510,332.72,105,7,9,43,467,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,316,429.63,103,10,12,55,261,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,391,465.34,90,9,7,31,360,Possible DoS: high packet volume
+ALERT,228,336.1,89,7,11,49,179,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,268,309.85,91,10,7,13,255,Possible DoS: high packet volume
+ALERT,345,307.17,90,11,13,63,282,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,508,473.39,94,9,11,69,439,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,377,570.71,89,11,9,28,349,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,196,469.02,72,6,10,43,153,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,174,342.39,60,7,9,27,147,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,304,518.5,83,7,10,22,282,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,260,380.5,85,14,18,74,175,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,259,514.24,89,10,10,22,233,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,372,394.0,88,11,12,46,324,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,267,450.7,91,9,8,39,228,Possible DoS: high packet volume
+ALERT,231,408.94,98,10,10,24,205,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,366,454.7,87,12,13,46,320,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,223,519.82,74,13,13,26,197,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,241,532.52,73,9,10,48,193,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,252,500.88,88,12,11,45,207,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,296,469.89,71,8,13,20,276,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,186,380.83,68,8,10,38,148,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,236,383.89,72,6,7,20,216,Possible DoS: high packet volume
+ALERT,248,505.83,71,12,12,58,190,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,274,390.86,91,10,9,37,237,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,182,605.31,73,8,9,19,163,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,215,398.12,80,8,10,54,161,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,418,302.24,78,10,19,129,288,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,193,388.7,63,10,15,70,123,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,280,412.39,90,9,11,52,228,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,308,431.44,99,11,12,29,279,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,441,456.07,99,13,14,87,354,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,236,443.66,60,12,14,83,153,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,164,510.34,66,8,10,38,126,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,240,256.8,90,9,14,76,164,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,137,375.72,54,9,9,32,105,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,131,332.97,53,7,11,36,95,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,152,554.81,63,6,8,41,111,Possible DoS: high packet volume
+ALERT,255,503.42,86,14,11,30,225,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,247,430.14,76,10,9,38,209,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,323,364.23,91,11,14,52,271,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,144,496.94,50,8,10,33,111,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,200,377.5,62,10,9,49,151,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,254,487.0,87,9,11,41,213,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,200,456.49,74,10,12,45,155,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,435,418.35,90,9,11,62,373,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,197,449.59,77,9,8,31,166,Possible DoS: high packet volume
+ALERT,402,458.9,75,12,12,70,332,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,215,458.64,70,12,12,26,189,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,200,417.48,46,12,11,61,139,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,126,501.83,63,8,11,38,88,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,209,350.79,80,7,7,28,181,Possible DoS: high packet volume
+ALERT,478,513.67,105,14,19,91,387,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,336,358.73,113,7,10,45,291,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,272,407.66,85,7,8,25,247,Possible DoS: high packet volume
+ALERT,328,312.87,55,7,22,35,293,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,352,338.82,70,10,18,88,264,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,628,351.81,105,8,7,35,593,Possible DoS: high packet volume
+ALERT,335,337.6,88,8,12,56,279,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,229,452.02,64,10,9,33,196,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,163,338.19,64,10,12,42,121,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,197,421.15,80,11,8,14,183,Possible DoS: high packet volume
+ALERT,183,440.79,59,7,10,42,141,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,449,133.62,48,5,8,40,409,Possible DoS: high packet volume
+ALERT,490,249.38,106,12,11,62,428,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,400,387.8,89,12,12,47,353,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,279,331.38,98,5,7,28,251,Possible DoS: high packet volume
+ALERT,458,318.47,98,10,11,60,398,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,268,266.62,109,6,9,35,233,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,427,614.15,81,10,13,32,395,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,218,362.7,80,10,11,54,164,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,292,416.58,73,10,14,55,237,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,549,483.42,104,11,9,25,524,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,312,278.08,104,8,8,35,277,Possible DoS: high packet volume
+ALERT,408,407.82,111,14,10,38,365,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,454,295.8,116,12,15,53,392,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,228,356.82,82,9,12,49,177,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,366,438.66,88,10,9,30,334,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,374,335.41,94,10,10,39,335,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,313,355.63,94,10,10,28,283,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,376,369.86,87,9,10,26,350,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,229,362.88,54,9,13,98,131,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,179,498.69,57,13,10,41,138,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,182,388.42,60,8,13,56,126,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,464,370.83,99,9,11,30,434,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,311,473.8,103,9,8,32,279,Possible DoS: high packet volume
+ALERT,192,331.54,67,6,8,30,162,Possible DoS: high packet volume
+ALERT,478,406.6,90,11,12,66,412,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,210,279.69,65,11,13,56,154,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,353,386.35,88,11,13,51,302,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,467,288.58,77,7,8,21,446,Possible DoS: high packet volume
+ALERT,396,251.34,79,10,11,46,350,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,345,319.39,79,8,7,14,331,Possible DoS: high packet volume
+ALERT,209,348.45,74,5,9,38,171,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,368,249.97,69,9,11,50,318,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,189,479.53,71,8,8,30,159,Possible DoS: high packet volume
+ALERT,215,374.14,52,10,10,38,177,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,103,310.86,40,7,12,53,50,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,234,405.85,83,10,12,37,197,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,302,429.71,87,10,11,41,261,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,291,271.11,88,9,9,37,254,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,350,421.24,100,8,10,47,303,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,298,481.81,84,9,12,46,252,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,288,448.86,93,8,9,35,253,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,256,340.2,83,7,9,43,213,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,703,456.29,98,10,6,25,678,Possible DoS: high packet volume
+ALERT,467,393.65,103,11,16,62,405,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,180,210.68,74,10,13,64,116,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,686,483.23,105,9,10,29,657,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,334,399.42,91,9,11,57,277,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,144,431.04,38,8,8,21,123,Possible DoS: high packet volume
+ALERT,128,397.96,46,4,8,30,98,Possible DoS: high packet volume
+ALERT,232,371.62,71,12,13,59,173,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,152,478.82,60,8,8,30,122,Possible DoS: high packet volume
+ALERT,700,516.56,93,11,11,42,658,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,429,459.37,84,13,31,45,383,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,371,544.08,87,11,13,20,351,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,796,480.02,107,9,9,44,752,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,416,509.58,94,9,7,21,395,Possible DoS: high packet volume
+ALERT,417,479.03,94,13,11,50,367,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,299,476.76,101,8,9,35,264,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,413,576.64,82,7,6,17,396,Possible DoS: high packet volume
+ALERT,438,361.39,95,10,12,45,393,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,332,437.98,94,10,9,38,294,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,319,391.45,84,11,15,40,279,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,362,457.28,91,11,9,40,322,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,652,502.76,132,9,8,22,630,Possible DoS: high packet volume
+ALERT,530,393.43,118,11,12,61,469,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,347,430.8,97,10,12,48,299,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,734,472.31,103,6,6,18,716,Possible DoS: high packet volume
+ALERT,475,334.25,103,13,15,73,402,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,907,451.72,106,11,9,20,887,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,516,391.53,106,16,21,57,459,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,331,318.83,89,5,8,35,296,Possible DoS: high packet volume
+ALERT,534,510.87,104,9,8,19,515,Possible DoS: high packet volume
+ALERT,512,391.06,101,8,8,40,472,Possible DoS: high packet volume
+ALERT,660,372.83,108,12,12,48,612,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,732,393.95,105,8,9,25,707,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,454,403.24,105,7,10,40,414,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,891,478.73,108,13,10,28,863,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,460,425.43,107,10,11,52,408,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,865,440.77,106,9,7,31,834,Possible DoS: high packet volume
+ALERT,338,333.35,100,11,12,50,288,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,325,444.94,78,9,8,33,292,Possible DoS: high packet volume
+ALERT,1088,448.37,115,19,19,355,733,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,642,463.27,89,13,15,148,494,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,681,505.52,110,11,13,108,573,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,417,417.87,106,9,11,46,371,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,387,341.11,92,16,19,131,256,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,144,431.33,77,6,6,13,131,Possible DoS: high packet volume
+ALERT,377,392.66,99,11,13,60,317,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,255,288.69,62,6,11,70,185,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,418,440.8,101,14,15,40,378,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,434,538.59,95,10,12,61,373,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,211,427.31,77,13,16,54,157,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,326,464.81,95,7,9,29,297,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,287,442.37,95,7,9,37,250,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,278,363.65,85,8,8,27,251,Possible DoS: high packet volume
+ALERT,223,442.13,87,7,9,35,188,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,336,420.04,99,10,8,38,298,Possible DoS: high packet volume
+ALERT,367,501.5,96,15,16,64,303,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,334,460.01,102,16,13,62,272,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,188,468.53,71,11,8,20,168,Possible DoS: high packet volume
+ALERT,195,396.52,70,6,9,40,155,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,101,330.72,38,5,9,45,56,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,494,502.55,105,12,8,39,455,Possible DoS: high packet volume
+ALERT,336,432.01,84,9,10,43,293,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,515,614.42,79,11,11,38,477,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,120,339.21,39,8,10,33,87,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,351,522.41,81,9,9,44,307,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,326,538.65,78,10,6,18,308,Possible DoS: high packet volume
+ALERT,166,379.43,68,7,11,56,110,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,442,563.38,88,10,9,46,396,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,342,502.46,95,11,8,31,311,Possible DoS: high packet volume
+ALERT,298,365.2,86,9,26,28,270,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,250,529.53,66,9,6,15,235,Possible DoS: high packet volume
+ALERT,560,449.63,87,11,11,56,504,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,395,368.87,79,10,13,58,337,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,434,287.39,85,10,11,38,396,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,377,391.24,82,7,8,35,342,Possible DoS: high packet volume
+ALERT,538,374.35,101,12,8,24,514,Possible DoS: high packet volume
+ALERT,647,454.28,102,9,7,26,621,Possible DoS: high packet volume
+ALERT,738,295.79,103,9,10,45,693,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,459,287.17,89,11,11,39,420,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,398,312.11,73,9,11,52,346,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,462,383.18,101,7,8,40,422,Possible DoS: high packet volume
+ALERT,699,432.78,104,10,8,30,669,Possible DoS: high packet volume
+ALERT,536,446.02,106,11,10,38,498,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,518,495.94,90,9,8,33,485,Possible DoS: high packet volume
+ALERT,640,407.22,99,9,10,51,589,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,803,349.0,108,8,9,34,769,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,343,360.31,91,10,9,29,314,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,648,405.86,106,11,11,51,597,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,533,359.02,107,9,5,12,521,Possible DoS: high packet volume
+ALERT,344,330.33,96,8,10,44,300,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,401,418.07,100,10,15,43,358,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,329,292.25,90,12,12,57,272,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,470,412.25,104,8,10,49,421,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,313,413.2,106,9,10,24,289,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,379,441.86,100,6,9,38,341,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,211,362.58,92,6,7,30,181,Possible DoS: high packet volume
+ALERT,598,420.73,99,12,11,41,550,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,465,363.27,110,10,12,54,405,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,323,493.19,92,10,9,26,295,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,732,459.72,108,11,8,31,699,Possible DoS: high packet volume
+ALERT,322,343.92,100,6,6,27,295,Possible DoS: high packet volume
+ALERT,188,395.16,80,6,7,16,170,Possible DoS: high packet volume
+ALERT,254,382.22,84,13,14,76,177,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,305,387.65,106,11,13,48,257,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,441,542.96,78,7,6,26,415,Possible DoS: high packet volume
+ALERT,221,469.21,75,8,8,38,183,Possible DoS: high packet volume
+ALERT,204,519.79,82,8,6,26,178,Possible DoS: high packet volume
+ALERT,154,388.92,52,7,11,33,121,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,157,495.75,66,9,9,42,115,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,382,466.51,94,10,10,37,345,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,352,465.48,94,7,13,114,238,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,347,415.03,106,11,10,42,305,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,285,386.76,99,7,9,34,251,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,326,436.71,93,7,9,31,295,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,248,313.96,99,8,8,32,216,Possible DoS: high packet volume
+ALERT,281,475.07,97,9,11,51,230,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,217,309.03,56,9,7,26,191,Possible DoS: high packet volume
+ALERT,329,424.47,84,8,9,34,295,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,282,361.33,85,9,12,66,216,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,80,265.26,36,6,6,24,56,Possible DoS: high packet volume
+ALERT,320,389.93,79,10,14,52,268,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,211,402.24,60,9,11,42,169,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,316,428.28,75,8,10,34,282,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,311,435.55,97,10,10,41,270,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,159,462.53,63,4,6,26,133,Possible DoS: high packet volume
+ALERT,199,406.04,66,6,7,26,173,Possible DoS: high packet volume
+ALERT,272,453.33,79,9,11,50,222,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,202,346.69,85,8,10,53,149,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,240,394.05,91,9,10,41,199,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,338,500.31,91,13,27,32,306,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,255,429.76,90,4,6,26,229,Possible DoS: high packet volume
+ALERT,152,308.54,58,6,10,54,98,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,497,322.11,102,7,12,42,455,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,210,460.39,73,10,10,33,177,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,248,414.88,82,6,6,28,220,Possible DoS: high packet volume
+ALERT,168,331.22,78,6,8,32,136,Possible DoS: high packet volume
+ALERT,279,406.01,74,10,14,45,234,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,284,391.41,97,11,11,41,243,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,296,412.95,82,12,10,43,253,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,214,348.42,88,9,11,34,180,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,676,462.7,102,13,13,33,643,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,332,410.72,101,7,10,36,296,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,216,398.98,86,7,8,34,182,Possible DoS: high packet volume
+ALERT,393,428.64,99,7,7,32,361,Possible DoS: high packet volume
+ALERT,491,389.76,105,9,9,40,451,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,198,262.06,86,8,9,28,170,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,265,435.68,95,6,9,38,227,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,357,298.66,96,10,13,98,259,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,316,289.59,90,8,8,28,288,Possible DoS: high packet volume
+ALERT,341,327.59,117,8,8,41,300,Possible DoS: high packet volume
+ALERT,367,278.19,113,11,12,63,304,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,205,394.96,73,5,7,25,180,Possible DoS: high packet volume
+ALERT,204,374.05,55,10,12,40,164,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,291,336.55,85,9,12,65,225,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,317,336.18,83,9,10,41,276,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,206,438.11,81,6,8,30,176,Possible DoS: high packet volume
+ALERT,384,488.24,99,13,13,81,303,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,304,393.26,94,13,14,41,263,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,418,423.3,92,10,11,123,295,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,591,768.41,100,10,13,366,225,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,407,340.28,96,10,12,40,356,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,324,390.89,99,13,13,66,254,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,504,436.46,102,16,19,82,422,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,395,415.39,95,10,13,85,308,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,258,331.03,82,6,7,20,238,Possible DoS: high packet volume
+ALERT,694,443.37,133,10,9,32,662,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,553,374.81,113,6,8,34,519,Possible DoS: high packet volume
+ALERT,432,552.62,112,9,12,52,380,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,480,390.55,107,10,10,45,435,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,568,412.01,103,8,8,29,539,Possible DoS: high packet volume
+ALERT,555,479.58,112,8,7,23,532,Possible DoS: high packet volume
+ALERT,487,679.45,95,6,8,28,459,Possible DoS: high packet volume
+ALERT,274,375.82,92,9,11,43,231,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,369,338.04,65,8,9,32,337,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,512,293.45,103,11,12,51,461,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,612,340.31,102,8,8,29,583,Possible DoS: high packet volume
+ALERT,474,408.09,102,11,8,20,454,Possible DoS: high packet volume
+ALERT,484,383.12,104,7,11,45,439,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,177,679.93,35,5,8,34,143,Possible DoS: high packet volume
+ALERT,197,314.01,55,10,9,30,167,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,309,498.68,90,10,14,62,247,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,342,469.75,86,10,13,57,285,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,284,448.71,86,13,13,58,226,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,383,491.71,88,5,6,18,365,Possible DoS: high packet volume
+ALERT,230,413.44,91,5,7,30,200,Possible DoS: high packet volume
+ALERT,237,459.1,88,10,11,45,192,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,186,548.64,63,8,11,50,136,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,173,400.28,55,6,10,37,136,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,481,290.4,92,10,26,30,450,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,403,295.68,71,9,8,26,377,Possible DoS: high packet volume
+ALERT,411,388.79,105,9,7,34,377,Possible DoS: high packet volume
+ALERT,326,288.41,75,5,8,41,285,Possible DoS: high packet volume
+ALERT,495,369.89,102,10,10,45,450,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,312,402.46,88,9,11,50,262,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,92,267.53,45,5,7,32,60,Possible DoS: high packet volume
+ALERT,380,373.22,88,10,10,40,340,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,988,347.94,94,16,37,356,632,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,521,348.33,101,15,16,57,464,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,377,230.85,91,7,10,49,328,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,280,343.23,67,5,7,26,254,Possible DoS: high packet volume
+ALERT,387,386.32,103,8,7,29,358,Possible DoS: high packet volume
+ALERT,211,358.24,88,6,8,26,185,Possible DoS: high packet volume
+ALERT,236,486.56,91,11,10,34,202,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,201,316.6,59,8,9,49,152,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,394,412.9,105,7,8,34,360,Possible DoS: high packet volume
+ALERT,163,355.15,64,6,7,26,137,Possible DoS: high packet volume
+ALERT,304,474.14,92,8,7,34,270,Possible DoS: high packet volume
+ALERT,310,394.54,98,8,9,42,268,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,217,507.41,87,6,7,23,194,Possible DoS: high packet volume
+ALERT,249,392.31,98,10,8,41,208,Possible DoS: high packet volume
+ALERT,357,432.62,107,12,9,40,317,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,341,357.78,104,10,10,30,311,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,579,376.68,106,13,14,46,533,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1608,683.64,111,18,20,383,1225,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1254,847.47,100,12,14,360,894,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,509,397.03,99,13,14,215,294,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,285,457.06,102,10,12,51,234,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,508,375.32,102,12,16,61,447,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
+ALERT,1044,441.2,115,24,30,558,486,Possible DoS: high packet volume; Possible Port Scan: many destination ports targeted
